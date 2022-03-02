@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --cor01:rgb(20, 79, 86);
+    --cor02:rgb(41, 50, 51);
+    --cor03: rgb(220, 96, 65);
+    --cor04:rgb(128, 128, 128);
+    --fonte01:'Open sans', sans-serif;
+    --fonte02:'Roboto';
+}
+
+*{
+  
+    text-align: center;
+}
+
+body{
+    background-image: url("../imagens/imagem_bg.jpg");
+    background-size: 100% 50%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: var(--cor02);
+}
+
+main{
+    margin: 100px auto;
+}
+h1{
+    margin-top: 40px;
+    font-family: var(--fonte02);
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+.planos{
+    margin-top:250px;
+}
+
+.card_planos{
+    margin: 10px 15px ;
+    display: inline-block;
+    width: 260px;
+    height: 450px;
+    background-color: white;
+}
+
+.card_planos:hover{
+    width: 280px;
+    height: 460px;
+    box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.445);
+    transition-duration: 0.5s;
+
+}
+
+h2{
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: var(--fonte01);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    background-color: var(--cor01);
+}
+
+.por_mes{
+    margin-top: -80px;
+    font-family: var(--fonte02);
+    font-size: 12px ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--cor03);
+
+}
+
+.preco{
+    margin-top: 0px;
+    color: var(--cor03);
+    font-family: var(--fonte02);
+    font-weight: bold;
+    font-size: 70px;
+}
+
+ul{
+    margin-top: 40px;
+    font-family: var(--fonte01);
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    
+    
+}
+.possui{
+    list-style-type: '\2705';
+}
+
+.nao_possui{
+    list-style-type: '\274C';
+
+}
+
+li{
+    margin: 10px ;
+    color: var(--cor04);
+}
+
+button{
+    margin-top: 50px;
+    background-color: var(--cor03);
+    border: 0px;
+    width: 170px;
+    height: 30px;
+}
+
+button:hover{
+    width: 180px;
+    height: 40px;
+}
+
+a{
+    font-family: var(--fonte01);
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    margin: 10px auto;
+    padding: 5px;
+    font-family: var(--fonte02);
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    height: 25px;
+}
+
+#nicepage{
+    font-size: 15px ;
+}
+
+
+
